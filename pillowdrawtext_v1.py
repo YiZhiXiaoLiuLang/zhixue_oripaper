@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont
 import os
 
-def pillowdrawtext(image_path, lines, font_path=None, font_size=20, line_spacing=5):
+def pillowdrawtext(image_path, lines, font_path=None, font_size=32, line_spacing=5):
     # 打开图像
     image = Image.open(image_path)
     draw = ImageDraw.Draw(image)
