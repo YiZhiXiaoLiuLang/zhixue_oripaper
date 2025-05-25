@@ -32,10 +32,11 @@ for i in range(len(a_re['sheetImages'])):
     #https://zhixue-sc.oss-cn-hangzhou.aliyuncs.com/scDV2dv_marking/scanFile/2025/05/16/AfterCorrect_oss_41badd9b-ccd6-49a1-8a03-347152f84994B.jpg?Expires=1748154727&OSSAccessKeyId=LTAIdp4LguxjYLnS&Signature=x22P4wywg3DKbJEwrUg96Lk5XhU%3D
     
 downloade(a_re['sheetImages'],dlcfilename)
-rects =[]
-logg=['ZXOPR运行！']
+
 pageindex=0#dlcfilename[pageindex]
 for pagesheet in sheetlocation['pageSheets']:
+    rects =[]
+    logg=['ZXOPR运行！']
     print(pageindex,dlcfilename[pageindex])
     for i in pagesheet['sections']:
         '''
@@ -60,14 +61,14 @@ for pagesheet in sheetlocation['pageSheets']:
         addtext='\n'
         for j in i['contents']['branch'][0]['ixList']:
             
-            addtext+=str(j)+':'+str(kuangkuang[str(j)]['score'])+'/'+str(kuangkuang[str(j)]['standardScore'])+'\n'
+            addtext+=str(j)+':'+str(kuangkuang[str(j)]['score'])+'/'+str(kuangkuang[str(j)]['standardScore'])+','+str(kuangkuang[str(j)]['answer'])+'\n'
         #addtext='\n'+str(i['contents']['branch'][0]['ixList'])+'\nbalala'
         try:
             i_position=i['position']
         except:
             i_position=i['contents']['position']
         i_position['addtext']=addtext
-        logg.append(i_position)
+        
         rects.append(i_position)
             #logg.append('E:题目'+str(i['contents']['branch'][0]['ixList'])+'标记失败')
     print(rects)
