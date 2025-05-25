@@ -1,0 +1,128 @@
+{
+	'1': {
+		'answer': 'D',
+		'score': 2.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': True
+	},
+	'2': {
+		'answer': 'A',
+		'score': 2.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': True
+	},
+	'3': {
+		'answer': 'A',
+		'score': 2.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': True
+	},
+	'4': {
+		'answer': 'A',
+		'score': 0.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': False
+	},
+	'5': {
+		'answer': 'C',
+		'score': 2.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': True
+	},
+	'6': {
+		'answer': 'B',
+		'score': 2.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': True
+	},
+	'7': {
+		'answer': 'C',
+		'score': 2.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': True
+	},
+	'8': {
+		'answer': 'D',
+		'score': 2.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': True
+	},
+	'9': {
+		'answer': 'B',
+		'score': 2.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': True
+	},
+	'10': {
+		'answer': 'B',
+		'score': 2.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': True
+	},
+	'11': {
+		'answer': 'A',
+		'score': 0.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': False
+	},
+	'12': {
+		'answer': 'A',
+		'score': 2.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': True
+	},
+	'13': {
+		'answer': 'D',
+		'score': 2.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': True
+	},
+	'14': {
+		'answer': 'C',
+		'score': 2.0,
+		'standardScore': 2.0,
+		'sourceCategoryName': '单选题',
+		'isCorrect': True
+	},
+	'15': {
+		'answer': '',
+		'score': 6.0,
+		'standardScore': 6.0,
+		'sourceCategoryName': '主观题',
+		'isCorrect': True
+	},
+	'16': {
+		'answer': '',
+		'score': 6.0,
+		'standardScore': 9.0,
+		'sourceCategoryName': '主观题',
+		'isCorrect': False
+	},
+	'17': {
+		'answer': '',
+		'score': 8.0,
+		'standardScore': 9.0,
+		'sourceCategoryName': '主观题',
+		'isCorrect': False
+	},
+	'18': {
+		'answer': '',
+		'score': 6.0,
+		'standardScore': 8.0,
+		'sourceCategoryName': '主观题',
+		'isCorrect': False
+	}
+}

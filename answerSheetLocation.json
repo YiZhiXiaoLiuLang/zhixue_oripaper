@@ -1,0 +1,705 @@
+{
+	"isTemplate": false,
+	"answersheetId": "d4cfce8b-fac0-4caa-9126-c9b05a7da3a4",
+	"paperId": "",
+	"paperType": "A3",
+	"paperName": "生物5月16日大练习",
+	"subjectName": "",
+	"gradeName": "",
+	"answerSheetFrom": "TranscriptsPoints",
+	"versionInfo": "1.0.3188",
+	"scoringMode": 0,
+	"allIntEnglishComposition": false,
+	"pageSheets": [{
+		"ticketNums": [],
+		"locatePoint": [{
+			"top": 11,
+			"left": 6,
+			"width": 7,
+			"height": 3.5
+		}, {
+			"top": 11,
+			"left": 407,
+			"width": 7,
+			"height": 3.5
+		}, {
+			"top": 279,
+			"left": 410.5,
+			"width": 3.5,
+			"height": 7
+		}, {
+			"top": 279,
+			"left": 6,
+			"width": 3.5,
+			"height": 7
+		}],
+		"sections": [{
+			"scoreBarCount": 1,
+			"type": "SingleChoice",
+			"enabled": true,
+			"contents": {
+				"enabled": true,
+				"position": {
+					"top": 72.29100529100529,
+					"left": 15,
+					"width": 180,
+					"height": 30
+				},
+				"branch": [{
+					"scoreBarCount": 1,
+					"subAreaTopicType": "Object",
+					"numList": [1, 2, 3, 4, 5],
+					"ixList": [1, 2, 3, 4, 5],
+					"smallTopicTypeList": [0, 0, 0, 0, 0],
+					"chooseCount": 4,
+					"chooseTopicModel": 0,
+					"abPosition": null,
+					"longChooseType": 0,
+					"position": {
+						"top": 0,
+						"left": 0,
+						"width": 35,
+						"height": 30
+					},
+					"chooses": ["A", "B", "C", "D"],
+					"colOffset": 33,
+					"rowOffset": 26,
+					"firstOption": {
+						"top": 17,
+						"left": 52,
+						"width": 26,
+						"height": 13
+					}
+				}, {
+					"scoreBarCount": 1,
+					"subAreaTopicType": "Object",
+					"numList": [6, 7, 8, 9, 10],
+					"ixList": [6, 7, 8, 9, 10],
+					"smallTopicTypeList": [0, 0, 0, 0, 0],
+					"chooseCount": 4,
+					"chooseTopicModel": 0,
+					"abPosition": null,
+					"longChooseType": 0,
+					"position": {
+						"top": 0,
+						"left": 35,
+						"width": 35,
+						"height": 30
+					},
+					"chooses": ["A", "B", "C", "D"],
+					"colOffset": 33,
+					"rowOffset": 26,
+					"firstOption": {
+						"top": 17,
+						"left": 52,
+						"width": 26,
+						"height": 13
+					}
+				}, {
+					"scoreBarCount": 1,
+					"subAreaTopicType": "Object",
+					"numList": [11, 12, 13, 14],
+					"ixList": [11, 12, 13, 14],
+					"smallTopicTypeList": [0, 0, 0, 0],
+					"chooseCount": 4,
+					"chooseTopicModel": 0,
+					"abPosition": null,
+					"longChooseType": 0,
+					"position": {
+						"top": 0,
+						"left": 70,
+						"width": 35,
+						"height": 30
+					},
+					"chooses": ["A", "B", "C", "D"],
+					"colOffset": 33,
+					"rowOffset": 26,
+					"firstOption": {
+						"top": 17,
+						"left": 52,
+						"width": 26,
+						"height": 13
+					}
+				}],
+				"cutPosition": {
+					"top": 72.29100529100529,
+					"left": 9,
+					"width": 192,
+					"height": 30
+				}
+			},
+			"precision": [0, 6, 0, 6],
+			"topicLocatePoints": [{
+				"top": 0,
+				"left": 0,
+				"width": 3.2,
+				"height": 2
+			}, {
+				"top": 0,
+				"left": 188.8,
+				"width": 3.2,
+				"height": 2
+			}, {
+				"top": 30,
+				"left": 0,
+				"width": 3.2,
+				"height": 2
+			}, {
+				"top": 30,
+				"left": 188.8,
+				"width": 3.2,
+				"height": 2
+			}],
+			"scorePosition": {
+				"top": -6,
+				"left": 30,
+				"width": 10,
+				"height": 5
+			}
+		}, {
+			"scoreBarCount": 1,
+			"scoreType": 3,
+			"scoreBar": {
+				"scoreObject": {
+					"deci": {
+						"gridIndex": [21],
+						"gridValue": [0]
+					},
+					"unit": {
+						"gridIndex": [14, 15, 16, 17, 18, 19, 20],
+						"gridValue": [6, 5, 4, 3, 2, 1, 0]
+					}
+				},
+				"scoreSectionCount": 2,
+				"count": 22,
+				"position": {
+					"top": 112.58201058201058,
+					"left": 15,
+					"width": 180,
+					"height": 4.8
+				},
+				"precision": [5, 8, 4, 8],
+				"cutPosition": {
+					"top": 107.58201058201058,
+					"left": 7,
+					"width": 196,
+					"height": 13.8
+				},
+				"topicLocatePoints": [{
+					"top": 5,
+					"left": 2,
+					"width": 3.2,
+					"height": 2
+				}, {
+					"top": 5,
+					"left": 190.8,
+					"width": 3.2,
+					"height": 2
+				}]
+			},
+			"scorePosition": {
+				"top": -7,
+				"left": 30,
+				"width": 10,
+				"height": 5
+			},
+			"type": "AnswerQuestion",
+			"exceptionPosition": {
+				"top": -6,
+				"left": 45,
+				"width": 15,
+				"height": 5
+			},
+			"num": 15,
+			"noList": [15],
+			"enabled": true,
+			"contents": {
+				"enabled": true,
+				"branch": [{
+					"scoreBarCount": 1,
+					"num": 15,
+					"numList": [15],
+					"ixList": [15],
+					"chooseTopicModel": 0,
+					"abPosition": null,
+					"text": "",
+					"position": {
+						"top": 0,
+						"left": 0,
+						"width": 180,
+						"height": 54
+					},
+					"scoreType": 3,
+					"scoreBar": {
+						"scoreObject": {
+							"deci": {
+								"gridIndex": [21],
+								"gridValue": [0]
+							},
+							"unit": {
+								"gridIndex": [14, 15, 16, 17, 18, 19, 20],
+								"gridValue": [6, 5, 4, 3, 2, 1, 0]
+							}
+						},
+						"scoreSectionCount": 2,
+						"count": 22,
+						"position": {
+							"top": 0,
+							"left": 0,
+							"width": 180,
+							"height": 4.8
+						},
+						"precision": [5, 8, 4, 8],
+						"cutPosition": {
+							"top": -5,
+							"left": -8,
+							"width": 196,
+							"height": 13.8
+						},
+						"topicLocatePoints": [{
+							"top": 5,
+							"left": 2,
+							"width": 3.2,
+							"height": 2
+						}, {
+							"top": 5,
+							"left": 190.8,
+							"width": 3.2,
+							"height": 2
+						}]
+					},
+					"scorePosition": {
+						"top": -7,
+						"left": 30,
+						"width": 10,
+						"height": 5
+					}
+				}],
+				"position": {
+					"top": 112.38201058201058,
+					"left": 15,
+					"width": 180,
+					"height": 54
+				}
+			},
+			"isSeparated": 0,
+			"ixList": [15]
+		}, {
+			"scoreBarCount": 1,
+			"scoreType": 3,
+			"scoreBar": {
+				"scoreObject": {
+					"deci": {
+						"gridIndex": [21],
+						"gridValue": [0]
+					},
+					"unit": {
+						"gridIndex": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+						"gridValue": [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+					}
+				},
+				"scoreSectionCount": 2,
+				"count": 22,
+				"position": {
+					"top": 174.3820105820106,
+					"left": 15,
+					"width": 180,
+					"height": 4.8
+				},
+				"precision": [5, 8, 4, 8],
+				"cutPosition": {
+					"top": 169.3820105820106,
+					"left": 7,
+					"width": 196,
+					"height": 13.8
+				},
+				"topicLocatePoints": [{
+					"top": 5,
+					"left": 2,
+					"width": 3.2,
+					"height": 2
+				}, {
+					"top": 5,
+					"left": 190.8,
+					"width": 3.2,
+					"height": 2
+				}]
+			},
+			"scorePosition": {
+				"top": -7,
+				"left": 30,
+				"width": 10,
+				"height": 5
+			},
+			"type": "AnswerQuestion",
+			"exceptionPosition": {
+				"top": -6,
+				"left": 45,
+				"width": 15,
+				"height": 5
+			},
+			"num": 16,
+			"noList": [16],
+			"enabled": true,
+			"contents": {
+				"enabled": true,
+				"branch": [{
+					"scoreBarCount": 1,
+					"num": 16,
+					"numList": [16],
+					"ixList": [16],
+					"chooseTopicModel": 0,
+					"abPosition": null,
+					"text": "",
+					"position": {
+						"top": 0,
+						"left": 0,
+						"width": 180,
+						"height": 103
+					},
+					"scoreType": 3,
+					"scoreBar": {
+						"scoreObject": {
+							"deci": {
+								"gridIndex": [21],
+								"gridValue": [0]
+							},
+							"unit": {
+								"gridIndex": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+								"gridValue": [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+							}
+						},
+						"scoreSectionCount": 2,
+						"count": 22,
+						"position": {
+							"top": 0,
+							"left": 0,
+							"width": 180,
+							"height": 4.8
+						},
+						"precision": [5, 8, 4, 8],
+						"cutPosition": {
+							"top": -5,
+							"left": -8,
+							"width": 196,
+							"height": 13.8
+						},
+						"topicLocatePoints": [{
+							"top": 5,
+							"left": 2,
+							"width": 3.2,
+							"height": 2
+						}, {
+							"top": 5,
+							"left": 190.8,
+							"width": 3.2,
+							"height": 2
+						}]
+					},
+					"scorePosition": {
+						"top": -7,
+						"left": 30,
+						"width": 10,
+						"height": 5
+					}
+				}],
+				"position": {
+					"top": 174.1820105820106,
+					"left": 15,
+					"width": 180,
+					"height": 103
+				}
+			},
+			"isSeparated": 0,
+			"ixList": [16]
+		}, {
+			"scoreBarCount": 1,
+			"scoreType": 3,
+			"scoreBar": {
+				"scoreObject": {
+					"deci": {
+						"gridIndex": [21],
+						"gridValue": [0]
+					},
+					"unit": {
+						"gridIndex": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+						"gridValue": [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+					}
+				},
+				"scoreSectionCount": 2,
+				"count": 22,
+				"position": {
+					"top": 26.79100529100529,
+					"left": 225,
+					"width": 180,
+					"height": 4.8
+				},
+				"precision": [5, 8, 4, 8],
+				"cutPosition": {
+					"top": 21.79100529100529,
+					"left": 217,
+					"width": 196,
+					"height": 13.8
+				},
+				"topicLocatePoints": [{
+					"top": 5,
+					"left": 2,
+					"width": 3.2,
+					"height": 2
+				}, {
+					"top": 5,
+					"left": 190.8,
+					"width": 3.2,
+					"height": 2
+				}]
+			},
+			"scorePosition": {
+				"top": -7,
+				"left": 30,
+				"width": 10,
+				"height": 5
+			},
+			"type": "AnswerQuestion",
+			"exceptionPosition": {
+				"top": -6,
+				"left": 45,
+				"width": 15,
+				"height": 5
+			},
+			"num": 17,
+			"noList": [17],
+			"enabled": true,
+			"contents": {
+				"enabled": true,
+				"branch": [{
+					"scoreBarCount": 1,
+					"num": 17,
+					"numList": [17],
+					"ixList": [17],
+					"chooseTopicModel": 0,
+					"abPosition": null,
+					"text": "",
+					"position": {
+						"top": 0,
+						"left": 0,
+						"width": 180,
+						"height": 69
+					},
+					"scoreType": 3,
+					"scoreBar": {
+						"scoreObject": {
+							"deci": {
+								"gridIndex": [21],
+								"gridValue": [0]
+							},
+							"unit": {
+								"gridIndex": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+								"gridValue": [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+							}
+						},
+						"scoreSectionCount": 2,
+						"count": 22,
+						"position": {
+							"top": 0,
+							"left": 0,
+							"width": 180,
+							"height": 4.8
+						},
+						"precision": [5, 8, 4, 8],
+						"cutPosition": {
+							"top": -5,
+							"left": -8,
+							"width": 196,
+							"height": 13.8
+						},
+						"topicLocatePoints": [{
+							"top": 5,
+							"left": 2,
+							"width": 3.2,
+							"height": 2
+						}, {
+							"top": 5,
+							"left": 190.8,
+							"width": 3.2,
+							"height": 2
+						}]
+					},
+					"scorePosition": {
+						"top": -7,
+						"left": 30,
+						"width": 10,
+						"height": 5
+					}
+				}],
+				"position": {
+					"top": 26.591005291005292,
+					"left": 225,
+					"width": 180,
+					"height": 69
+				}
+			},
+			"isSeparated": 0,
+			"ixList": [17]
+		}, {
+			"scoreBarCount": 1,
+			"scoreType": 3,
+			"scoreBar": {
+				"scoreObject": {
+					"deci": {
+						"gridIndex": [21],
+						"gridValue": [0]
+					},
+					"unit": {
+						"gridIndex": [12, 13, 14, 15, 16, 17, 18, 19, 20],
+						"gridValue": [8, 7, 6, 5, 4, 3, 2, 1, 0]
+					}
+				},
+				"scoreSectionCount": 2,
+				"count": 22,
+				"position": {
+					"top": 103.88201058201058,
+					"left": 225,
+					"width": 180,
+					"height": 4.8
+				},
+				"precision": [5, 8, 4, 8],
+				"cutPosition": {
+					"top": 98.88201058201058,
+					"left": 217,
+					"width": 196,
+					"height": 13.8
+				},
+				"topicLocatePoints": [{
+					"top": 5,
+					"left": 2,
+					"width": 3.2,
+					"height": 2
+				}, {
+					"top": 5,
+					"left": 190.8,
+					"width": 3.2,
+					"height": 2
+				}]
+			},
+			"scorePosition": {
+				"top": -7,
+				"left": 30,
+				"width": 10,
+				"height": 5
+			},
+			"type": "AnswerQuestion",
+			"exceptionPosition": {
+				"top": -6,
+				"left": 45,
+				"width": 15,
+				"height": 5
+			},
+			"num": 18,
+			"noList": [18],
+			"enabled": true,
+			"contents": {
+				"enabled": true,
+				"branch": [{
+					"scoreBarCount": 1,
+					"num": 18,
+					"numList": [18],
+					"ixList": [18],
+					"chooseTopicModel": 0,
+					"abPosition": null,
+					"text": "",
+					"position": {
+						"top": 0,
+						"left": 0,
+						"width": 180,
+						"height": 85
+					},
+					"scoreType": 3,
+					"scoreBar": {
+						"scoreObject": {
+							"deci": {
+								"gridIndex": [21],
+								"gridValue": [0]
+							},
+							"unit": {
+								"gridIndex": [12, 13, 14, 15, 16, 17, 18, 19, 20],
+								"gridValue": [8, 7, 6, 5, 4, 3, 2, 1, 0]
+							}
+						},
+						"scoreSectionCount": 2,
+						"count": 22,
+						"position": {
+							"top": 0,
+							"left": 0,
+							"width": 180,
+							"height": 4.8
+						},
+						"precision": [5, 8, 4, 8],
+						"cutPosition": {
+							"top": -5,
+							"left": -8,
+							"width": 196,
+							"height": 13.8
+						},
+						"topicLocatePoints": [{
+							"top": 5,
+							"left": 2,
+							"width": 3.2,
+							"height": 2
+						}, {
+							"top": 5,
+							"left": 190.8,
+							"width": 3.2,
+							"height": 2
+						}]
+					},
+					"scorePosition": {
+						"top": -7,
+						"left": 30,
+						"width": 10,
+						"height": 5
+					}
+				}],
+				"position": {
+					"top": 103.68201058201058,
+					"left": 225,
+					"width": 180,
+					"height": 85
+				}
+			},
+			"isSeparated": 0,
+			"ixList": [18]
+		}],
+		"pageNumLocation": [],
+		"pageIndex": 0,
+		"qrCode": {
+			"top": 37,
+			"left": 25,
+			"width": 24,
+			"height": 24
+		},
+		"titlePosition": {
+			"top": 20,
+			"left": 15,
+			"width": 180,
+			"height": 13
+		},
+		"barCode": {
+			"direction": 1,
+			"enabled": true,
+			"position": {
+				"top": 34,
+				"left": 122,
+				"width": 65,
+				"height": 27
+			}
+		}
+	}],
+	"onlineCorrect": false,
+	"singleSidePrint": false,
+	"titlePosition": {
+		"top": 20,
+		"left": 15,
+		"width": 180,
+		"height": 13
+	}
+}
