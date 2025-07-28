@@ -1,5 +1,7 @@
 # ZXOP 一个一个通过智学网api实现渲染原卷的程序
-![tmp1751257309 2559702_1](https://github.com/user-attachments/assets/282c4d81-4b5d-4a30-b604-7bd0c2ca45d2)
+
+![tmp1751257309 2559702_1](https://github.com/user-attachments/assets/97fb90af-cc63-4ed4-a6a5-c90a42ff6384)
+
 
 ### 部署
 ```shell
