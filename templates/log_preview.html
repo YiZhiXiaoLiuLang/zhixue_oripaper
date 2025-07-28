@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>预览 - {{ filename }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        .file-info { color: #666; margin-bottom: 20px; }
+        pre {
+            background: #f8f8f8;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+        }
+        .actions { margin-top: 20px; }
+        .btn {
+            display: inline-block;
+            padding: 8px 15px;
+            background: #1a73e8;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .btn:hover { background: #0d62cb; }
+    </style>
+</head>
+<body>
+    <h1>{{ filename }}</h1>
+    <div class="file-info">
+        大小: {{ size|filesizeformat }} | 
+        修改时间: 不会写不写了
+    </div>
+    <pre>{{ content }}</pre>
+    <div class="actions">
+        <a href="{{ url_for('list_log_files') }}" class="btn">返回列表</a>
+        <a href="{{ url_for('download_file', filename=filename) }}" class="btn">下载文件</a>
+    </div>
+</body>
+</html>

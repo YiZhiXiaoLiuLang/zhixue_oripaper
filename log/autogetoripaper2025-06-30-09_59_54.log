@@ -1,0 +1,6 @@
+[2025-06-30-09_59_55]请求用户 15000001001630[数据删除] 失败：500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:1139/api/v1/oripaper?userId=1500000100163[数据删除]8&topicSetId=ce46bc29-7d7d-4512-bd82-a0701a[数据删除]&api_token=test_api_key
+[2025-06-30-09_59_57]请求用户 1500000100163[数据删除] 失败：500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:1139/api/v1/oripaper?userId=15000001001[数据删除]&topicSetId=ce46bc29-7d7d-4512-bd82-a0701a[数据删除]&api_token=test_api_key
+[2025-06-30-09_59_58]请求用户 1500000100163[数据删除] 失败：500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:1139/api/v1/oripaper?userId=15000001001[数据删除]&topicSetId=ce46bc29-7d7d-4512-bd82-a0701[数据删除]&api_token=test_api_key
+[2025-06-30-10_00_00]请求用户 1500000100163[数据删除] 失败：500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:1139/api/v1/oripaper?userId=1500000100163[数据删除]&topicSetId=ce46bc29-7d7d-4512-bd82-a0701a[数据删除]&api_token=test_api_key
+[2025-06-30-10_00_01]用户 1500000100218[数据删除] 返回结果：200
+[2025-06-30-10_00_04]用户 15000001002[数据删除] 返回结果：200

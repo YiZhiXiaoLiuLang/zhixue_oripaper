@@ -13,12 +13,16 @@ def pillowdrawtext(image_path, lines, font_path=None, font_size=32, line_spacing
             raise FileNotFoundError("找不到默认字体，请手动指定一个支持中文的 .ttf 字体路径。")
 
     font = ImageFont.truetype(font_path, font_size)
+    font2 = ImageFont.truetype(font_path, font_size*2)
 
     # 从 (0, 0) 开始写字
     x, y = 0, 0
 
     for line in lines:
-        draw.text((x, y), line, font=font, fill=(0, 0, 0))
+        if line[0]=='!':
+             draw.text((x, y), line, font=font2, fill=(200, 0, 0))
+        else:
+             draw.text((x, y), line, font=font, fill=(0, 0, 0))
         y += font.getsize(line)[1] + line_spacing
 
     # 直接覆盖原图

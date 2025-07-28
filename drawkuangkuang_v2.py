@@ -9,17 +9,23 @@ def rgba_string_to_rgb(rgba_str: str) -> tuple:
     parts = rgba_str.replace('rgba(', '').replace(')', '').split(',')
     return tuple(map(int, parts[:3]))
 
-def draw_rectangle(draw: ImageDraw.ImageDraw, rect_data: Dict, font: Optional[ImageFont.ImageFont] = None, font_size: int = 16):
+def draw_rectangle(draw: ImageDraw.ImageDraw, rect_data: Dict, imgsize:tuple, font: Optional[ImageFont.ImageFont] = None,font_size: int = 16):
     left = rect_data['left']
     top = rect_data['top']
     width = rect_data['width']
     height = rect_data['height']
+    if rect_data['suofang']:
+        left*=imgsize[0]
+        top*=imgsize[1]
+        width*=imgsize[0]
+        height*=imgsize[1]
+    
     right = left + width
     bottom = top + height
 
     line_width = 5  # 固定线条粗细为5
 
-    color = rgba_string_to_rgb(rect_data.get('strokeStyle', 'rgba(0,0,0,1)'))
+    color = rgba_string_to_rgb(rect_data.get('strokeStyle', 'rgba(100,200,100,1)'))
 
     # 绘制矩形
     draw.rectangle([left, top, right, bottom], outline=color, width=line_width)
@@ -56,7 +62,7 @@ def draw_rectangles_on_canvas(
         font = ImageFont.load_default()
 
     for rect in rectangles:
-        draw_rectangle(draw, rect, font=font, font_size=font_size)
+        draw_rectangle(draw, rect,canvas.size, font=font, font_size=font_size)
 
     if save_path:
         canvas.save(save_path)
